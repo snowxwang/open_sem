@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Open SEM'
+copyright = '2022, Snow Wang'
+author = 'Snow Wang'
 
 release = '0.1'
 version = '0.1.0'
