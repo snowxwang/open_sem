@@ -20,6 +20,7 @@ To prepare your Windows computer for ng installation, first install these applic
 
 
 - Install `chocolatey <https://chocolatey.org/install>`_ 
+
     - `Open Windows PowerShell and run as Administrator <https://www.javatpoint.com/powershell-run-as-administrator>`_
     - In **PowerShell**, run:
     
@@ -37,6 +38,7 @@ To prepare your Windows computer for ng installation, first install these applic
     - If it returns the message below, you are ready to go.
 
 - Install `nodejs <https://nodejs.org/en/download/>`_
+
     - In **PowerShell**, run:
     
     >>> choco install -y --force nodejs

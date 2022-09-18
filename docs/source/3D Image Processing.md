@@ -1,29 +1,20 @@
-3D Rendering Using 3ds Max 
-==========================
+3D Image Processing
+=====================
 
-Contributors: `Bowen Gong <https://github.com/BowenGong2000>`_ and `Kelly Yin <https://github.com/Kelly-Yin>`_
-
-.. autosummary::
-   :toctree: generated
-
-Animation
----------
+## **Animation**
 
 In this section, we are going to create a rotation animation using the software 3ds Max. When complete, this animation will allow you to demonstrate your object in 360 degrees with controllable speed, framerate, and resolution. For instance, the short gif below demonstrates 4 parts of a block of brain cells of rat, each rotates 360 degrees and lasts for 10 seconds. 
 
 <p align="center">
  
- !`3d image <https://media.giphy.com/media/AdtRnUtAHy3I0On0ud/giphy.gif>`_
+ ![3d image](https://media.giphy.com/media/AdtRnUtAHy3I0On0ud/giphy.gif)
 
 </p>
 
 
 Nonetheless, this tutorial will allow you to create a similar animation above, demonstrating anything you want, and you can expect a higher resolution and frame rate for your work since this file is compressed for convenience. 
 
-
-Overview & Introduction
------------------------
-
+### **Overview & Introduction**
 There is something important we need to mention before we start the actual procedure. 
 
 
@@ -32,9 +23,7 @@ There is something important we need to mention before we start the actual proce
 + You can get a **free license** of the software if you work for an academic institute or are a student, you can get the free license from the official website. But if you are neither of the 2 above, you can only use the software for 30 days for free and you will be charged later. 
 + The tutorial cost you about **40 minutes to go through**, however, we also need to wait for our computers to complete the rendering of the animation. So, depending on your specs, extra hours may be needed to complete the rendering. Feel free to take a nap.
 
-Related features we applied
----------------------------
-
+### **Related features we applied**
 3ds Max is one of the most popular computer graphics programs for model design, animations, and digital images. Despite its other fancy and marvelous features that create dazzling effects, the functions we are applying are simple and efficient. 
 
 + **Max script**, the built-in scripting language for 3ds Max, is designed to complement 3ds Max, and the syntax is simple enough for non-programmers to use. 
