@@ -1,5 +1,5 @@
-Neuroglancer Setup on Windows Machine
-=====================================
+Neuroglancer Setup on Windows Machines
+======================================
 
 Contributors: `Kelly Yin <https://github.com/Kelly-Yin>`_ and `Snow Wang <https://github.com/snowxwang>`_
 
@@ -19,8 +19,8 @@ To prepare your Windows computer for ng installation, first install these applic
 >>> conda install -c anaconda git
 
 
-- Install `chocolatey <https://chocolatey.org/install>` 
-    - `Open Windows PowerShell and run as Administrator <https://www.javatpoint.com/powershell-run-as-administrator>`
+- Install `chocolatey <https://chocolatey.org/install>`_ 
+    - `Open Windows PowerShell and run as Administrator <https://www.javatpoint.com/powershell-run-as-administrator>`_
     - In **PowerShell**, run:
     
     >>> Get-ExecutionPolicy
@@ -36,7 +36,7 @@ To prepare your Windows computer for ng installation, first install these applic
     
     - If it returns the message below, you are ready to go.
 
-- Install `nodejs <https://nodejs.org/en/download/>`
+- Install `nodejs <https://nodejs.org/en/download/>`_
     - In **PowerShell**, run:
     
     >>> choco install -y --force nodejs
@@ -52,7 +52,7 @@ To prepare your Windows computer for ng installation, first install these applic
 Install Neuroglancer
 --------------------
 
-To install neuroglancer and the related components, we want to first create a new enviroment (let's call it ``ng_torch``) and install `PyTorch <https://pytorch.org/>` for it:
+To install neuroglancer and the related components, we want to first create a new enviroment (let's call it ``ng_torch``) and install `PyTorch <https://pytorch.org/>`_ for it:
 
 
 - Open **Anaconda Prompt** or **Command Prompt**, run:
@@ -90,7 +90,7 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
     [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"    # This loads nvm
 
 
-- Install `npm <https://docs.npmjs.com/downloading-and-installing-node-js-and-npm>`. In **Anaconda Prompt**, run:
+- Install `npm <https://docs.npmjs.com/downloading-and-installing-node-js-and-npm>`_. In **Anaconda Prompt**, run:
 
 >>> pip install npm
 
@@ -114,7 +114,7 @@ Use Jupyter Notebook to set up your ng viewer
 Open **Anaconda**, locate your ng enviroment and start a ``Jupyter Notebook``:
 
 
-- In the notebook, run the code in sequence:
+- In the notebook, run the code blocks in sequence:
 
 .. code-block:: console
    
@@ -210,4 +210,4 @@ Open **Anaconda**, locate your ng enviroment and start a ``Jupyter Notebook``:
    np.unique(img_stack)
 
 
-- Please feel free to download the sample Jupyter [notebook] or `Colab notebook <https://colab.research.google.com/drive/1OP3VSKOao0Wa6Z4RPGc2r38PM0oemzgt?usp=sharing>` whichever is convenient for you.
+- Please feel free to download the sample Jupyter [notebook] or `Colab notebook <https://colab.research.google.com/drive/1OP3VSKOao0Wa6Z4RPGc2r38PM0oemzgt?usp=sharing>`_ whichever is convenient for you.
