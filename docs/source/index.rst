@@ -24,4 +24,5 @@ Contents
    cell
    image_processing
    data_analysis
+   data_vis
    
