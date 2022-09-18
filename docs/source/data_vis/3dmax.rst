@@ -11,12 +11,18 @@ Animation
 
 In this section, we are going to create a rotation animation using the software 3ds Max. When complete, this animation will allow you to demonstrate your object in 360 degrees with controllable speed, framerate, and resolution. For instance, the short gif below demonstrates 4 parts of a block of brain cells of rat, each rotates 360 degrees and lasts for 10 seconds. 
 
-<p align="center">
- 
- !`3d image <https://media.giphy.com/media/AdtRnUtAHy3I0On0ud/giphy.gif>`_
+.. image:: https://media.giphy.com/media/AdtRnUtAHy3I0On0ud/giphy.gif
+    
+    :alt: IMAGE ALT TEXT HERE
+    :target: https://media.giphy.com/media/AdtRnUtAHy3I0On0ud/giphy.gif
 
-</p>
+.. raw:: html
 
+    <iframe width="560" height="315" src="https://media.giphy.com/media/AdtRnUtAHy3I0On0ud/giphy.gif" frameborder="0" allowfullscreen></iframe>
+
+.. raw:: html
+
+    <image controls src="images/3dmax_mito"></image>
 
 Nonetheless, this tutorial will allow you to create a similar animation above, demonstrating anything you want, and you can expect a higher resolution and frame rate for your work since this file is compressed for convenience. 
 
@@ -41,4 +47,4 @@ Related features we applied
 + **Auto Key Mode animation**, allows the user to animate the position, rotation, and scale of an object using auto-created keyframes.
 + **Set Key mode animation**, allows you to create keys for selected objects individual tracks using a combination of the Set Keys button, which has more flexibility than Auto Key Mode. 
 
-Some basic modeling functions are also used to create a frame around the object to make the boundaries more obvious, and it is up to you to decide whether to have it or not. Please don’t be confused by all the definitions above, all of them will be explained in detail in the following parts. If you are still confused after go through the tutorial or, if something you want to achieve is not included, please go to the <a href="https://knowledge.autodesk.com/" target="_blink">Autodesk knowledge network</a> for more tutorials and information. 
+Some basic modeling functions are also used to create a frame around the object to make the boundaries more obvious, and it is up to you to decide whether to have it or not. Please don’t be confused by all the definitions above, all of them will be explained in detail in the following parts. If you are still confused after go through the tutorial or, if something you want to achieve is not included, please go to the `Autodesk Knowledge Network <https://knowledge.autodesk.com/>`_ for more tutorials and information. 
