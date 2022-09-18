@@ -12,14 +12,11 @@ Animation
 In this section, we are going to create a rotation animation using the software 3ds Max. When complete, this animation will allow you to demonstrate your object in 360 degrees with controllable speed, framerate, and resolution. For instance, the short gif below demonstrates 4 parts of a block of brain cells of rat, each rotates 360 degrees and lasts for 10 seconds. 
 
 
-.. raw:: html
+.. figure:: /_static/images/3dmax_mito.gif
+   :width: 100%
+   :align: center
+   :alt: reconstructed mitochondria from a SEM volume
 
-    <iframe width="560" height="315" src="https://media.giphy.com/media/AdtRnUtAHy3I0On0ud/giphy.gif" frameborder="0" allowfullscreen></iframe>
-
-
-.. raw:: html
-
-    <image controls src="images/3dmax_mito"></image>
 
 Nonetheless, this tutorial will allow you to create a similar animation above, demonstrating anything you want, and you can expect a higher resolution and frame rate for your work since this file is compressed for convenience. 
 

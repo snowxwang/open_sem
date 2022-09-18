@@ -105,9 +105,11 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 >>> python setup.py install
 
-- If you encounter error messages in the last step, run this code before re-run the last line:
+.. note::
 
->>> npm run build-python-min
+   If you encounter error messages in the last step, run this code before re-run the last line:
+
+   >>> npm run build-python-min
 
 
 Use Jupyter Notebook to set up your ng viewer
@@ -118,7 +120,7 @@ Open **Anaconda**, locate your ng enviroment and start a ``Jupyter Notebook``:
 
 - In the notebook, run the code blocks in sequence:
 
-.. code-block:: console
+.. code-block:: python
    
    import neuroglancer
    import numpy as np
@@ -129,7 +131,7 @@ Open **Anaconda**, locate your ng enviroment and start a ``Jupyter Notebook``:
 
 - Set up the local server:
 
-.. code-block:: console
+.. code-block:: python
 
    ip = 'localhost'  # or public IP of the machine for sharable display
    port = 9999       # change to an unused port number
@@ -139,7 +141,7 @@ Open **Anaconda**, locate your ng enviroment and start a ``Jupyter Notebook``:
 
 - If your reconstruction has been exported as an image stack, this code loads your entire image folder. In this case, we are loading a folder named `jwr_pyr87` containing 773 image sections:
 
-.. code-block:: console
+.. code-block:: python
 
    script_dir = os.path.abspath('') # locate the folder where the current script is being run
    sample_name = 'jwr_pyr87' # put your image folder in the script path and specify the name of the folder
@@ -163,7 +165,7 @@ Open **Anaconda**, locate your ng enviroment and start a ``Jupyter Notebook``:
 
 - If your reconstruction file is in .h5 format, use the code below to load your image stack:
 
-.. code-block:: console
+.. code-block:: python
 
    with h5py.File('C:/Users/Lichtman Lab/Desktop/h5_data/jwr_pyr87.h5', 'r') as fl:
        
@@ -172,7 +174,7 @@ Open **Anaconda**, locate your ng enviroment and start a ``Jupyter Notebook``:
 
 - Set the x,y,z resolutions for the ng viewer:
 
-.. code-block:: console
+.. code-block:: python
 
    res = neuroglancer.CoordinateSpace(
        names=['z', 'y', 'x'],
@@ -182,7 +184,7 @@ Open **Anaconda**, locate your ng enviroment and start a ``Jupyter Notebook``:
 
 - Add a layer in ng viewer to show the segmentation/reconstruction:
 
-.. code-block:: console
+.. code-block:: python
 
    def ngLayer(data, res, oo=[0,0,0], tt='segmentation'):
        
@@ -191,7 +193,7 @@ Open **Anaconda**, locate your ng enviroment and start a ``Jupyter Notebook``:
 
 - Configure the ng layers: (in this case, we are loading a precomputed EM volume)
 
-.. code-block:: console
+.. code-block:: python
 
    with viewer.txn() as s:
        s.layers['em'] = neuroglancer.ImageLayer(source='precomputed://https://rhoana.rc.fas.harvard.edu/ng/jwr15-120_im')
@@ -200,14 +202,14 @@ Open **Anaconda**, locate your ng enviroment and start a ``Jupyter Notebook``:
 
 - Generate a link for your ng viewer:
 
-.. code-block:: console
+.. code-block:: python
 
    print(viewer)
 
 
 - Obtain the complete segment list for the segmentation layer:
 
-.. code-block:: console
+.. code-block:: python
 
    np.unique(img_stack)
 
