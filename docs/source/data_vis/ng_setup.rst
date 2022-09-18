@@ -1,20 +1,20 @@
 Neuroglancer Setup on Windows Machine
 =====================================
 
-Contributors: `Kelly Yin <https://github.com/Kelly-Yin>` and `Snow Wang <https://github.com/snowxwang>`
+Contributors: `Kelly Yin <https://github.com/Kelly-Yin>`_ and `Snow Wang <https://github.com/snowxwang>`_
 
 .. autosummary::
    :toctree: generated
-   
+
 
 Prepare for ng installation
 ---------------------------
 
 To prepare your Windows computer for ng installation, first install these applications:
 
-- Install `Visual Studio <https://visualstudio.microsoft.com/downloads/>` - (download the free community version)
-- Install `Anaconda <https://www.anaconda.com/products/individual>`
-- Install `Git <https://git-scm.com/download/win>` (call `Anaconda Prompt <https://docs.anaconda.com/anaconda/install/verify-install/>` or `Command Prompt <https://www.dell.com/support/kbdoc/en-in/000130703/the-command-prompt-what-it-is-and-how-to-use-it-on-a-dell-system>` in your window search option)
+- Install `Visual Studio <https://visualstudio.microsoft.com/downloads/>`_ - (download the free community version)
+- Install `Anaconda <https://www.anaconda.com/products/individual>`_
+- Install `Git <https://git-scm.com/download/win>`_ (call `Anaconda Prompt <https://docs.anaconda.com/anaconda/install/verify-install/>`_ or `Command Prompt <https://www.dell.com/support/kbdoc/en-in/000130703/the-command-prompt-what-it-is-and-how-to-use-it-on-a-dell-system>`_ in your window search option)
 
 >>> conda install -c anaconda git
 
