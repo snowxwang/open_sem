@@ -1,5 +1,5 @@
-API
-===
+Image Processing
+================
 
 .. autosummary::
    :toctree: generated

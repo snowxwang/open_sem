@@ -20,6 +20,8 @@ Contents
 
 .. toctree::
 
-   usage
-   api
-   others
+   microscopy
+   cell
+   image_processing
+   data_analysis
+   
