@@ -13,7 +13,7 @@ In this section, we are going to create a rotation animation using the software 
 
 
 .. figure:: /_static/images/3dmax_mito.gif
-   :width: 100%
+   :width: 60%
    :align: center
    :alt: reconstructed mitochondria from a SEM volume
 
