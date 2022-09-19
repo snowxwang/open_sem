@@ -1,10 +1,16 @@
-Neuroglancer Setup on Windows Machines
-======================================
+3D Rendering Using Neuroglancer (ng)
+====================================
 
 Contributors: `Kelly Yin <https://github.com/Kelly-Yin>`_ and `Snow Wang <https://github.com/snowxwang>`_
 
 .. autosummary::
    :toctree: generated
+
+Neuroglancer is a data visualization tool developed by Google. To set up Neuroglancer locally on your PC, please follow the tutorial below.
+
+.. note::
+
+   Currently Neuroglancer is only supported on Windows Machines.
 
 
 Prepare for ng installation
