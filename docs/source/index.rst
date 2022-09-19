@@ -3,7 +3,7 @@ Tutorials for Serial Electron Microscopy (SEM)
 
 **Open SEM** is a site providing free tutorials for serial electron microscopy (SEM), EM datasets, and open code for image processing and data analysis.
 
-This repository provides computational tools for practicing biologists to analyze volumetric image data at large-scale. These tools focus on in-depth analyses *after* automatic/semi-automatic segmentation. We use examples of 3D data acquired from serial electron microscopy for demonstrations, but all the codes and scripts should be able to deal with other types of 3D images such as fluorescence microscopy image stacks.
+This repository provides computational tools for practicing biologists to analyze volumetric image data at large-scale. These tools focus on in-depth analyses **after** automatic/semi-automatic segmentation. We use examples of 3D data acquired from serial electron microscopy for demonstrations, but all the codes and scripts should be able to deal with other types of 3D images such as fluorescence microscopy image stacks.
 
 The intended audience is the *practicing biologists/neuroscientists* - e.g., the students, researchers, and clinicians collecting volumeric image data in the hospital or laboratory. Some sections of this material can get pretty math-heavy, but we have tried to outline the main concepts as directly as possible, with hands-on implementations of all concepts.
 
